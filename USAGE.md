@@ -7,11 +7,11 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/language-go"
+	languagego "github.com/speakeasy-sdks/language-go"
 )
 
 func main() {
-    s := testlanguagetags.New()
+    s := languagego.New()
 
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx)

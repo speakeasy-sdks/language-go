@@ -18,11 +18,11 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/language-go"
+	languagego "github.com/speakeasy-sdks/language-go"
 )
 
 func main() {
-    s := testlanguagetags.New()
+    s := languagego.New()
 
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx)
@@ -60,16 +60,16 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/language-go"
+	languagego "github.com/speakeasy-sdks/language-go"
 	"github.com/speakeasy-sdks/language-go/pkg/models/operations"
 )
 
 func main() {
-    s := testlanguagetags.New()
+    s := languagego.New()
 
     ctx := context.Background()
     res, err := s.Pets.ListPets(ctx, operations.ListPetsRequest{
-        Limit: testlanguagetags.Int(548814),
+        Limit: languagego.Int(548814),
     })
     if err != nil {
         log.Fatal(err)
@@ -106,12 +106,12 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/language-go"
+	languagego "github.com/speakeasy-sdks/language-go"
 	"github.com/speakeasy-sdks/language-go/pkg/models/operations"
 )
 
 func main() {
-    s := testlanguagetags.New()
+    s := languagego.New()
 
     ctx := context.Background()
     res, err := s.Pets.ShowPetByID(ctx, operations.ShowPetByIDRequest{
