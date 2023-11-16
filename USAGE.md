@@ -1,6 +1,4 @@
 <!-- Start SDK Example Usage -->
-
-
 ```go
 package main
 
@@ -8,6 +6,7 @@ import (
 	"context"
 	languagego "github.com/speakeasy-sdks/language-go"
 	"log"
+	"net/http"
 )
 
 func main() {
