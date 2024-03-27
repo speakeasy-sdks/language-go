@@ -3,17 +3,17 @@ id: 10333bd9-71f1-4f3b-ae9e-1722f2c679ed
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.207.1
-  generationVersion: 2.280.6
-  releaseVersion: 0.10.1
-  configChecksum: 779f1a2908ced176c0fc19dea7f848e8
+  speakeasyVersion: 1.227.0
+  generationVersion: 2.291.0
+  releaseVersion: 0.10.2
+  configChecksum: ad98bcac26ee583a3e5138e7f6b89f02
   repoURL: https://github.com/speakeasy-sdks/language-go.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/language-go
   published: true
 features:
   go:
-    core: 3.4.4
+    core: 3.4.5
     globalServerURLs: 2.82.2
     responseFormat: 0.1.0
 generatedFiles:
